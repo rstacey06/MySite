@@ -9,10 +9,12 @@ const pageStyles = {
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
-  maxWidth: 320,
+  maxWidth: 350,
 }
 const headingAccentStyles = {
   color: "#663399",
+  fontSize: "24px",
+
 }
 const paragraphStyles = {
   marginBottom: 48,
@@ -102,12 +104,10 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Congratulations
+        Burbage R. Stacey Jr...
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
+        <span style={headingAccentStyles}> ...is a software engineer, former social media manager and forever learner </span>
+
       </h1>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
